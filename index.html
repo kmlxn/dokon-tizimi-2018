@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Do'kon tizimi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/lumen/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height: 100vh">
+            <div class="col-md-8">
+                <div class="card mb-3">
+                    <h3 class="card-header">Do'kon tizimi 2018</h3>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <input id="product" type="number" class="form-control">
+                        </div>
+                        <button class="btn btn-secondary" onclick="add()">Qo'shish</button>
+                        <button class="btn btn-secondary" onclick="clearAll()">Tozalash</button>
+                    </div>
+                    <ul id="list" class="list-group list-group-flush">
+                    </ul>
+                    <div class="card-body">
+                        Jami <span id="total" style="font-weight: bold">0</span> so'm.
+                    </div>
+                    <div class="card-footer text-muted">
+                        2 days ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
